@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logoChacras from "@/assets/logo-chacras.png";
+import logoChacras from "@/assets/logo-chacras-official.png";
 
 const Header = () => {
   return (

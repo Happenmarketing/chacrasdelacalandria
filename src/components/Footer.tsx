@@ -1,4 +1,4 @@
-import logoChacras from "@/assets/logo-chacras.png";
+import logoChacras from "@/assets/logo-chacras-official.png";
 
 const Footer = () => {
   return (
