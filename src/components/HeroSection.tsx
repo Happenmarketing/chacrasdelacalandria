@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroAerial})` }}
+        style={{ backgroundImage: `url(/lovable-uploads/9b3077c6-2a6a-4ec3-bdc3-ccc75865d661.png)` }}
       >
         <div className="absolute inset-0 bg-gradient-overlay"></div>
       </div>
