@@ -83,19 +83,21 @@ const LocationSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
             </div>
             
-            {/* Map placeholder */}
+            {/* Mapa de lotes */}
             <Card className="mt-6 border border-border">
               <CardContent className="p-6">
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <svg className="w-12 h-12 mx-auto mb-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-1.447-.894L15 4m0 13V4m-6 3l6-3" />
-                    </svg>
-                    <p className="text-muted-foreground">Mapa Interactivo</p>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Aquí puedes agregar un mapa de Google Maps o similar
-                    </p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/bfd71777-c40c-43c1-81a5-5eea7a82bfe8.png" 
+                    alt="Mapa de lotes Chacras de la Calandria" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="mt-4 text-center">
+                  <h3 className="font-semibold text-primary mb-2">Plano de Loteo</h3>
+                  <p className="text-sm text-muted-foreground">
+                    20 lotes exclusivos con acceso directo desde Ruta 8
+                  </p>
                 </div>
               </CardContent>
             </Card>
