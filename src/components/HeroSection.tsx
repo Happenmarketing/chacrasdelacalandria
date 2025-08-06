@@ -23,8 +23,12 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-gold hover:bg-gold/90 text-earth font-semibold px-8 py-4 text-lg shadow-medium">
-              Ver Terrenos Disponibles
+            <Button 
+              size="lg" 
+              className="bg-gold hover:bg-gold/90 text-earth font-semibold px-8 py-4 text-lg shadow-medium"
+              onClick={() => document.getElementById('plano-loteo')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Descubrí los Terrenos Disponibles
             </Button>
             
           </div>

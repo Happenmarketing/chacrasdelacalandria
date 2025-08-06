@@ -78,7 +78,7 @@ const LocationSection = () => {
             </div>
             
             {/* Mapa de lotes */}
-            <Card className="mt-6 border border-border">
+            <Card id="plano-loteo" className="mt-6 border border-border">
               <CardContent className="p-6">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden">
                   <img src="/lovable-uploads/bfd71777-c40c-43c1-81a5-5eea7a82bfe8.png" alt="Mapa de lotes Chacras de la Calandria" className="w-full h-full object-cover" />
