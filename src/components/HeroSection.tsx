@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
-            Chacras de la
+            Chacras de La
             <span className="block text-white"> Calandria</span>
           </h1>
           
