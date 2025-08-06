@@ -23,7 +23,7 @@ const ContactSection = () => {
             <Card className="shadow-medium border border-border">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">
-                  Solicita Información
+                  Solicitá Información
                 </CardTitle>
                 <p className="text-muted-foreground">
                   Completá el formulario y nos pondremos en contacto contigo a la brevedad.
