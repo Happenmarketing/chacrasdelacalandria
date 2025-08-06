@@ -77,7 +77,7 @@ const ContactSection = () => {
             </Card>
 
             {/* Contact Info */}
-            <div className="space-y-6">
+            <div className="space-y-6 flex flex-col justify-center">
               <Card className="shadow-soft border border-border">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
