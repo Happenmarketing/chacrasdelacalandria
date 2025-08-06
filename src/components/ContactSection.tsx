@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-
 const ContactSection = () => {
-  return (
-    <section id="contacto" className="py-20 bg-background">
+  return <section id="contacto" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
@@ -62,11 +60,7 @@ const ContactSection = () => {
                 <label className="text-sm font-medium text-foreground mb-2 block">
                   Mensaje
                 </label>
-                <Textarea 
-                  placeholder="Contanos qué tipo de terreno buscas, presupuesto, o cualquier consulta..."
-                  rows={4}
-                  className="border-input"
-                />
+                <Textarea placeholder="Contanos qué tipo de terreno buscas, presupuesto, o cualquier consulta..." rows={4} className="border-input" />
               </div>
               
               <Button className="w-full bg-primary hover:bg-primary-hover text-primary-foreground py-3">
@@ -87,7 +81,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-2">Teléfono</h3>
-                    <p className="text-muted-foreground">+54 11 1234-5678</p>
+                    <p className="text-muted-foreground">+59811 1234-5678</p>
                     <p className="text-muted-foreground">WhatsApp disponible</p>
                   </div>
                 </div>
@@ -128,28 +122,10 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="shadow-soft border border-border">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-earth rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-primary mb-2">Oficina de Ventas</h3>
-                    <p className="text-muted-foreground">Av. Principal 123</p>
-                    <p className="text-muted-foreground">Ciudad, Provincia</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
