@@ -55,8 +55,8 @@ const LocationSection = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gold rounded-lg flex items-center justify-center flex-shrink-0">
-                      <svg className="w-6 h-6 text-earth" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.511l-5.511-3.182" />
+                      <svg className="w-6 h-6 text-earth" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21.95 9.95c0-.55-.45-1-1-1L14 8.45l-2.22-3.9c-.54-.95-1.76-.95-2.3 0L7.26 8.45.99 8.95c-.55 0-1 .45-1 1 0 .39.23.74.58.9l5.39 2.18L8.52 20c.1.55.6.95 1.15.95h.01c.54 0 1.04-.4 1.14-.95l2.56-6.97 5.39-2.18c.35-.16.58-.51.58-.9z"/>
                       </svg>
                     </div>
                     <div>
