@@ -1,14 +1,11 @@
 import { Button } from "@/components/ui/button";
 import heroAerial from "@/assets/hero-aerial-real.jpg";
-
 const HeroSection = () => {
-  return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(/lovable-uploads/9b3077c6-2a6a-4ec3-bdc3-ccc75865d661.png)` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(/lovable-uploads/9b3077c6-2a6a-4ec3-bdc3-ccc75865d661.png)`
+    }}>
         <div className="absolute inset-0 bg-gradient-overlay"></div>
       </div>
 
@@ -26,24 +23,15 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="bg-gold hover:bg-gold/90 text-earth font-semibold px-8 py-4 text-lg shadow-medium"
-            >
+            <Button size="lg" className="bg-gold hover:bg-gold/90 text-earth font-semibold px-8 py-4 text-lg shadow-medium">
               Ver Terrenos Disponibles
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-earth px-8 py-4 text-lg"
-            >
-              Descargar Información
-            </Button>
+            
           </div>
 
           <div className="mt-12 animate-float">
             <div className="inline-flex items-center space-x-2 text-sm text-gray-300">
-              <span>Desliza para descubrir más</span>
+              <span>Deslizá para descubrir más</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
@@ -51,8 +39,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
