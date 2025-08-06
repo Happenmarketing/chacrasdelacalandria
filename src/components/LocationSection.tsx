@@ -60,10 +60,8 @@ const LocationSection = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Transporte Público</h3>
-                      <p className="text-muted-foreground">
-                        Conexiones directas con líneas de transporte público hacia la ciudad.
-                      </p>
+                      <h3 className="font-semibold text-primary mb-2">Cercanía del aeropuerto </h3>
+                      <p className="text-muted-foreground">A solo 20 minutos del aeropuerto de Carrasco. </p>
                     </div>
                   </div>
                 </CardContent>
