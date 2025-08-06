@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import logoChacras from "@/assets/logo-chacras-official.png";
+const logoChacras = "/lovable-uploads/54bd9870-79af-49bb-86d3-930fd438b148.png";
 const Header = () => {
   return <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <img src={logoChacras} alt="Chacras de la Calandria" className="h-10 w-auto" />
-          <span className="text-xl font-bold text-primary">Chacras de la Calandria</span>
+          <img src={logoChacras} alt="Chacras de La Calandria" className="h-10 w-auto" />
+          <span className="text-xl font-bold text-primary">Chacras de La Calandria</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">

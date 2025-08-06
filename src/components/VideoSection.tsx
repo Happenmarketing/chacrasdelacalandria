@@ -3,7 +3,7 @@ const VideoSection = () => {
   return <section id="video" className="py-20 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-slide-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Descubrí Chacras de la Calandria</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Descubrí Chacras de La Calandria</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Un proyecto de terrenos único en un entorno privilegiado</p>
         </div>
 
@@ -12,7 +12,7 @@ const VideoSection = () => {
             <iframe 
               className="w-full h-full"
               src="https://drive.google.com/file/d/14C-eST_aBFk_fRgY1OzbfPWc7Va1-R6I/preview"
-              title="Chacras de la Calandria - Video Promocional"
+              title="Chacras de La Calandria - Video Promocional"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

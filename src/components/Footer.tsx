@@ -6,8 +6,8 @@ const Footer = () => {
           {/* Logo and Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src={logoChacras} alt="Chacras de la Calandria" className="h-8 w-auto" />
-              <span className="text-lg font-bold">Chacras de la Calandria</span>
+              <img src={logoChacras} alt="Chacras de La Calandria" className="h-12 w-auto" />
+              <span className="text-lg font-bold">Chacras de La Calandria</span>
             </div>
             <p className="text-primary-foreground/80 mb-4">
               Tu lugar en el campo. Terrenos exclusivos en un entorno natural privilegiado.
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/60">© 2025 Chacras de la Calandria. Todos los derechos reservados.</p>
+          <p className="text-primary-foreground/60">© 2025 Chacras de La Calandria. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>;

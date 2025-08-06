@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Design system for Chacras de la Calandria - Real Estate Landing Page
+/* Design system for Chacras de La Calandria - Real Estate Landing Page
 All colors MUST be HSL. Earth tones and natural colors for countryside properties.
 */
 
@@ -37,7 +37,7 @@ All colors MUST be HSL. Earth tones and natural colors for countryside propertie
     --input: 45 20% 88%;
     --ring: 35 60% 25%;
 
-    /* Custom design tokens matching Chacras de la Calandria logo */
+    /* Custom design tokens matching Chacras de La Calandria logo */
     --earth-brown: 25 35% 45%;
     --nature-green: 75 25% 35%;
     --warm-beige: 40 20% 85%;

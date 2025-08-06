@@ -29,7 +29,7 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            ¿Por qué elegir Chacras de la Calandria?
+            ¿Por qué elegir Chacras de La Calandria?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Ofrecemos mucho más que terrenos. Te brindamos la oportunidad de crear 

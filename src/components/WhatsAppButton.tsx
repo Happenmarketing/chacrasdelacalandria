@@ -1,7 +1,7 @@
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = "59899123456"; // Without the + sign for WhatsApp URL
-    const message = "Hola! Estoy interesado en conocer más sobre Chacras de la Calandria";
+    const message = "Hola! Estoy interesado en conocer más sobre Chacras de La Calandria";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
