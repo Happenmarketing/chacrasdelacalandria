@@ -1,9 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import natureBg from "@/assets/nature-bg.jpg";
-
 const LocationSection = () => {
-  return (
-    <section id="ubicacion" className="py-20 bg-gradient-section">
+  return <section id="ubicacion" className="py-20 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
@@ -75,23 +73,15 @@ const LocationSection = () => {
 
           <div className="animate-fade-in">
             <div className="relative rounded-xl overflow-hidden shadow-strong">
-              <img 
-                src={natureBg} 
-                alt="Ubicación Chacras de la Calandria" 
-                className="w-full h-96 object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+              
+              
             </div>
             
             {/* Mapa de lotes */}
             <Card className="mt-6 border border-border">
               <CardContent className="p-6">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/bfd71777-c40c-43c1-81a5-5eea7a82bfe8.png" 
-                    alt="Mapa de lotes Chacras de la Calandria" 
-                    className="w-full h-full object-cover"
-                  />
+                  <img src="/lovable-uploads/bfd71777-c40c-43c1-81a5-5eea7a82bfe8.png" alt="Mapa de lotes Chacras de la Calandria" className="w-full h-full object-cover" />
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-semibold text-primary mb-2">Plano de Loteo</h3>
@@ -104,8 +94,6 @@ const LocationSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default LocationSection;
