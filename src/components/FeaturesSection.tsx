@@ -14,7 +14,7 @@ const features = [
   {
     icon: "🏡",
     title: "Lotes Amplios",
-    description: "Terrenos desde 1000m² hasta 5000m², perfectos para tu casa de campo ideal."
+    description: "Lotes de 3 hectáreas, perfectos para tu casa de campo ideal."
   },
   {
     icon: "💰",
