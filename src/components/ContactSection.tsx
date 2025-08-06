@@ -55,7 +55,7 @@ const ContactSection = () => {
                 <label className="text-sm font-medium text-foreground mb-2 block">
                   Teléfono
                 </label>
-                <Input placeholder="+54 11 1234-5678" className="border-input" />
+                <Input placeholder="+598 99 123 456" className="border-input" />
               </div>
               
               <div>
