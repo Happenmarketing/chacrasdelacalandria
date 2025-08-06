@@ -19,9 +19,6 @@ const VideoSection = () => {
             ></iframe>
           </div>
 
-          <div className="mt-8 text-center">
-            <p className="text-sm text-muted-foreground">Video promocional de Chacras de la Calandria</p>
-          </div>
         </div>
       </div>
     </section>;
