@@ -25,7 +25,7 @@ const Header = () => {
         </nav>
 
         <Button variant="default" className="bg-primary hover:bg-primary-hover text-primary-foreground">
-          Consultar
+          Contacto
         </Button>
       </div>
     </header>;
