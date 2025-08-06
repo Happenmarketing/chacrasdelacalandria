@@ -35,7 +35,7 @@ const HeroSection = () => {
 
           <div className="mt-12 animate-float">
             <div className="inline-flex items-center space-x-2 text-sm text-gray-300">
-              <span>Deslizá para descubrir más</span>
+              <span>Deslizá para ver más</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
