@@ -8,8 +8,8 @@ const features = [
   },
   {
     icon: "🛣️",
-    title: "Excelente Acceso",
-    description: "Fácil acceso por rutas pavimentadas y a pocos minutos de centros urbanos."
+    title: "Ubicación Privilegiada",
+    description: "Fácil acceso por ruta 8."
   },
   {
     icon: "🏡",
