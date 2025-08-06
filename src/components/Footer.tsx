@@ -1,4 +1,4 @@
-import logoChacras from "@/assets/logo-chacras-official.png";
+const logoChacras = "/lovable-uploads/54bd9870-79af-49bb-86d3-930fd438b148.png";
 const Footer = () => {
   return <footer className="bg-primary text-primary-foreground py-8">
       <div className="container mx-auto px-4">
