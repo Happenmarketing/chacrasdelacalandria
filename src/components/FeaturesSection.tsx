@@ -12,19 +12,9 @@ const features = [
     description: "Fácil acceso por rutas pavimentadas y a pocos minutos de centros urbanos."
   },
   {
-    icon: "⚡",
-    title: "Servicios Incluidos",
-    description: "Luz eléctrica, agua potable y acceso a internet disponibles en cada lote."
-  },
-  {
     icon: "🏡",
     title: "Lotes Amplios",
     description: "Terrenos desde 1000m² hasta 5000m², perfectos para tu casa de campo ideal."
-  },
-  {
-    icon: "🔒",
-    title: "Seguridad",
-    description: "Zona tranquila y segura con vigilancia privada las 24 horas."
   },
   {
     icon: "💰",
