@@ -4,7 +4,7 @@ const Header = () => {
   return <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <img src={logoChacras} alt="Chacras de La Calandria" className="h-20 w-auto" />
+          <img src={logoChacras} alt="Chacras de La Calandria" className="h-24 w-auto" />
           <div className="flex flex-col">
             <h1 className="text-lg md:text-xl font-bold text-primary leading-tight">
               Chacras de
