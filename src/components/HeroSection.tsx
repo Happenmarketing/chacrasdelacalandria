@@ -3,9 +3,13 @@ import heroAerial from "@/assets/hero-aerial-real.jpg";
 const HeroSection = () => {
   return <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-      backgroundImage: `url(/lovable-uploads/9b3077c6-2a6a-4ec3-bdc3-ccc75865d661.png)`
-    }}>
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+        style={{
+          backgroundImage: `url(/lovable-uploads/9b3077c6-2a6a-4ec3-bdc3-ccc75865d661.png)`,
+          willChange: 'transform'
+        }}
+      >
         <div className="absolute inset-0 bg-gradient-overlay"></div>
       </div>
 

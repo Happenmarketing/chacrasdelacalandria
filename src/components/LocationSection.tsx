@@ -78,7 +78,13 @@ const LocationSection = () => {
             <Card id="plano-loteo" className="mt-6 border border-border">
               <CardContent className="p-6">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-                  <img src="/lovable-uploads/1b00c1f3-c440-437b-bfd6-3e41088c081b.png" alt="Mapa de lotes Chacras de La Calandria" className="w-full h-full object-cover" />
+                  <img 
+                    src="/lovable-uploads/1b00c1f3-c440-437b-bfd6-3e41088c081b.png" 
+                    alt="Mapa de lotes Chacras de La Calandria" 
+                    className="w-full h-full object-cover" 
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-semibold text-primary mb-2">Plano de Loteo</h3>
