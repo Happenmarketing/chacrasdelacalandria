@@ -88,7 +88,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-2">Teléfono</h3>
-                      <p className="text-muted-foreground">+59899123456</p>
+                      <p className="text-muted-foreground">099423238</p>
                       <p className="text-muted-foreground">WhatsApp disponible</p>
                     </div>
                   </div>
@@ -105,8 +105,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-2">Email</h3>
-                      <p className="text-muted-foreground">info@chacrasdelacalandria.com</p>
-                      <p className="text-muted-foreground">ventas@chacrasdelacalandria.com</p>
+                      <p className="text-muted-foreground">chacrasdelacalandria@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -122,8 +121,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-2">Horarios de Atención</h3>
-                      <p className="text-muted-foreground">Lunes a Viernes: 9:00 - 18:00</p>
-                      <p className="text-muted-foreground">Sábados: 9:00 - 13:00</p>
+                      <p className="text-muted-foreground">Lunes a Viernes: 8:00 - 16:00</p>
                     </div>
                   </div>
                 </CardContent>
