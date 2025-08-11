@@ -26,9 +26,7 @@ const LocationSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-2">Accesos Principales</h3>
-                      <p className="text-muted-foreground">
-                        A solo 15 minutos de la Ruta Nacional y 25 minutos del centro de la ciudad.
-                      </p>
+                      <p className="text-muted-foreground">Sobre la ruta 8 y a 25 minutos del centro de la ciudad.</p>
                     </div>
                   </div>
                 </CardContent>
@@ -78,13 +76,7 @@ const LocationSection = () => {
             <Card id="plano-loteo" className="mt-6 border border-border">
               <CardContent className="p-6">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/1b00c1f3-c440-437b-bfd6-3e41088c081b.png" 
-                    alt="Mapa de lotes Chacras de La Calandria" 
-                    className="w-full h-full object-cover" 
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <img src="/lovable-uploads/1b00c1f3-c440-437b-bfd6-3e41088c081b.png" alt="Mapa de lotes Chacras de La Calandria" className="w-full h-full object-cover" />
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-semibold text-primary mb-2">Plano de Loteo</h3>
