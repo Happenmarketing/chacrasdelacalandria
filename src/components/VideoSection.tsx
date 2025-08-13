@@ -11,7 +11,7 @@ const VideoSection = () => {
           <div className="relative aspect-video bg-muted rounded-xl overflow-hidden shadow-strong">
             <iframe 
               className="w-full h-full"
-              src="https://drive.google.com/file/d/1jgElvqQ3ToPuDPh5vrd-MhqhPrniuS8H/preview"
+              src="https://drive.google.com/file/d/1jgElvqQ3ToPuDPh5vrd-MhqhPrniuS8H/preview?v=2"
               title="Chacras de La Calandria - Video Promocional"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
