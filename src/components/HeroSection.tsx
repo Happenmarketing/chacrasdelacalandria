@@ -27,7 +27,7 @@ const HeroSection = () => {
           </div>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
-            Tu lugar en el campo. Terrenos exclusivos en un entorno natural privilegiado, 
+            Terrenos exclusivos en un entorno natural privilegiado, 
             donde la tranquilidad y la belleza se encuentran.
           </p>
 
