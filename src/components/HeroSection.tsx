@@ -37,7 +37,7 @@ const HeroSection = () => {
               className="bg-gold hover:bg-gold/90 text-earth font-semibold px-8 py-4 text-lg shadow-medium"
               onClick={() => document.getElementById('plano-loteo')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Descubrí los Terrenos Disponibles
+              Terrenos disponibles
             </Button>
             
           </div>
