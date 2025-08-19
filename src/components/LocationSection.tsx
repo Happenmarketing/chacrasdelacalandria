@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Plane } from "lucide-react";
 import natureBg from "@/assets/nature-bg.jpg";
 const LocationSection = () => {
+  console.log("LocationSection renderizando - cambios aplicados");
   return <section id="ubicacion" className="py-20 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
