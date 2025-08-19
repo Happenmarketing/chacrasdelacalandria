@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto animate-fade-in">
           <div className="mb-6">
             <img 
-              src="/logo-chacras-official.png" 
+              src="/lovable-uploads/1ff87c24-1955-42ff-a424-82d34e02c333.png" 
               alt="Chacras de La Calandria" 
               className="h-32 md:h-48 mx-auto filter drop-shadow-lg"
             />
