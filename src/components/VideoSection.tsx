@@ -11,11 +11,13 @@ const VideoSection = () => {
           <div className="relative aspect-video bg-muted rounded-xl overflow-hidden shadow-strong">
             <iframe 
               className="w-full h-full"
-              src="https://drive.google.com/file/d/1jgElvqQ3ToPuDPh5vrd-MhqhPrniuS8H/preview?v=1734117500"
+              src="https://drive.google.com/file/d/1jgElvqQ3ToPuDPh5vrd-MhqhPrniuS8H/preview?v=1734117900&cache=bust"
               title="Chacras de La Calandria - Video Promocional"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              onLoad={() => console.log("Video cargado exitosamente")}
+              onError={() => console.log("Error cargando video")}
             ></iframe>
           </div>
 

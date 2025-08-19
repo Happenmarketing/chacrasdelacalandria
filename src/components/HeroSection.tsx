@@ -18,9 +18,11 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto animate-fade-in">
           <div className="mb-6">
             <img 
-              src="/lovable-uploads/1ff87c24-1955-42ff-a424-82d34e02c333.png" 
+              src="/lovable-uploads/1ff87c24-1955-42ff-a424-82d34e02c333.png?v=1734117900&cache=bust" 
               alt="Chacras de La Calandria" 
               className="h-32 md:h-48 mx-auto filter drop-shadow-lg"
+              onLoad={() => console.log("Logo cargado exitosamente")}
+              onError={() => console.log("Error cargando logo")}
             />
           </div>
           
