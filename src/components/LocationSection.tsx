@@ -26,7 +26,7 @@ const LocationSection = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-2">Accesos Principales</h3>
-                      <p className="text-muted-foreground">Sobre la ruta 8 y a 25 minutos del centro de la ciudad.</p>
+                      <p className="text-muted-foreground">A 10 km de Atlántida, cerca de todos los servicios.</p>
                     </div>
                   </div>
                 </CardContent>
@@ -41,9 +41,9 @@ const LocationSection = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Servicios Cercanos</h3>
+                      <h3 className="font-semibold text-primary mb-2">Conectividad</h3>
                       <p className="text-muted-foreground">
-                        Escuelas, centros de salud, comercios y servicios a menos de 10 km.
+                        30' de Montevideo y 45' de Punta del Este.
                       </p>
                     </div>
                   </div>
@@ -57,8 +57,8 @@ const LocationSection = () => {
                       <Plane className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Cercanía del aeropuerto </h3>
-                      <p className="text-muted-foreground">A solo 20 minutos del aeropuerto de Carrasco. </p>
+                      <h3 className="font-semibold text-primary mb-2">Cercanía del aeropuerto</h3>
+                      <p className="text-muted-foreground">A solo 25' del aeropuerto de Carrasco.</p>
                     </div>
                   </div>
                 </CardContent>
