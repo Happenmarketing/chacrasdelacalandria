@@ -1,23 +1,24 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Trees, MapPin, Home, CreditCard } from "lucide-react";
 
 const features = [
   {
-    icon: "🌳",
+    Icon: Trees,
     title: "Entorno Natural",
     description: "Rodeado de naturaleza virgen, con vistas panorámicas y aire puro del campo."
   },
   {
-    icon: "🛣️",
+    Icon: MapPin,
     title: "Ubicación Privilegiada",
     description: "Fácil acceso por ruta 8."
   },
   {
-    icon: "🏡",
+    Icon: Home,
     title: "Lotes Amplios",
     description: "Lotes de 3 hectáreas, perfectos para tu casa de campo ideal."
   },
   {
-    icon: "💰",
+    Icon: CreditCard,
     title: "Financiación",
     description: "Planes de financiación flexibles y facilidades de pago adaptadas a vos."
   }
@@ -44,8 +45,11 @@ const FeaturesSection = () => {
               className="group hover:shadow-medium transition-all duration-300 hover:-translate-y-2 bg-card border border-border"
             >
               <CardHeader className="text-center pb-4">
-                <div className="text-4xl mb-4 group-hover:animate-float">
-                  {feature.icon}
+                <div className="flex justify-center mb-4 group-hover:animate-float">
+                  <feature.Icon 
+                    size={48} 
+                    className="text-primary group-hover:text-primary-glow transition-colors duration-300"
+                  />
                 </div>
                 <CardTitle className="text-xl text-primary">
                   {feature.title}
