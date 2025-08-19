@@ -16,10 +16,13 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
-            Chacras de
-            <span className="block text-white">La Calandria</span>
-          </h1>
+          <div className="mb-6">
+            <img 
+              src="/logo-chacras-official.png" 
+              alt="Chacras de La Calandria" 
+              className="h-32 md:h-48 mx-auto filter drop-shadow-lg"
+            />
+          </div>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
             Tu lugar en el campo. Terrenos exclusivos en un entorno natural privilegiado, 
