@@ -5,10 +5,16 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,10 +22,17 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npm run build
-      - uses: peaceiris/actions-gh-pages@v3
+      - run: npm run build   # Vite deja el sitio en ./dist
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-para 
+          path: ./dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
