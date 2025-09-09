@@ -75,3 +75,4 @@ deploy
 deploy2
 deploy3
 deploy alias 
+deploy tsconfig fix
