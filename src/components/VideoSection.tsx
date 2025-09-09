@@ -8,7 +8,7 @@ const VideoSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="relative aspect-video bg-muted rounded-xl overflow-hidden shadow-strong">
+          <div className="relative aspect-video border border-border rounded-xl overflow-hidden shadow-strong">
             <iframe 
               className="w-full h-full"
               src="https://drive.google.com/file/d/1jetSfjidJ5iI9n1wpqPhuHdcvtcfx5eo/preview"
