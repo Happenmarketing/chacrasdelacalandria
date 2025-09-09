@@ -1,6 +1,6 @@
 
 const VideoSection = () => {
-  return <section id="video" className="py-20 bg-gradient-section">
+  return <section id="video" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Descubrí Chacras de La Calandria</h2>
