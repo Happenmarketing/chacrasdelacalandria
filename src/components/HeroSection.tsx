@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
         style={{
-          backgroundImage: `url(/lovable-uploads/4920f74c-1375-4df4-b30a-bebd498c33ec.png)`,
+          backgroundImage: `url(/lovable-uploads/1dec7ff6-d812-4642-84c0-af5bf850ce00.png)`,
           willChange: 'transform'
         }}
       >
